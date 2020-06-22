@@ -1,5 +1,4 @@
-Def removeDuplicatestring(str,n):
-index=0
+Def removeDuplicate(str,n):
     for i in range(0,n):
         for j in range(0,i+1):
             if (str[i]==str[j]):
