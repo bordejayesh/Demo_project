@@ -1,4 +1,4 @@
-Def removeDuplicate(str,n):
+Def removeDuplicatestring(str,n):
 index=0
     for i in range(0,n):
         for j in range(0,i+1):
@@ -9,6 +9,6 @@ index=0
              index +=1
         return "".join(str[:index])
 
-str="Wellcome to Kloudone Inc."
+str="Wellcome to KloudLearn"
 n=len(str)
 print(removeDuplicate(list(str))
